@@ -120,6 +120,8 @@
     *   `reason` (VARCHAR(255), NOT NULL) — причина списания (`Expired`, `Defect`, `Sanitary Waste`).
     *   `write_off_date` (DATETIME, NOT NULL) — дата проведения документа.
     *   `quantity` (DECIMAL(10,3), NOT NULL) — количество утилизированного объема.
+    <img width="1684" height="1014" alt="image" src="https://github.com/user-attachments/assets/87d8b46b-e86c-4cca-ad4b-6bfdf65cf236" />
+
 
 ---
 
@@ -136,3 +138,7 @@
 1.  **Действие:** После успешного входа открывается **Экран 2: Каталог**.
 2.  **Визуальный фокус:** Верхний промо-баннер демонстрирует процесс выпечки (эмоциональный триггер свежести).
 3.  **Фильтрация:** Нажатие на таб-переключатель категорий (например, `Хлеб`) плавно меняет состояние UI (активный таб инвертирует цвета, получая контрастную серую подложку). При этом отправляется асинхронный AJAX-запрос к БД для фильтрации плиточного интерфейса (Grid) без перезагрузки всего экрана.
+<img width="1114" height="785" alt="image" src="https://github.com/user-attachments/assets/4039786e-3c2c-4eeb-a42f-a23276e959e4" />
+<img width="1100" height="783" alt="image" src="https://github.com/user-attachments/assets/fd96609b-5302-4393-abe3-9f5a8bedb223" />
+
+
